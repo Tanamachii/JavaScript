@@ -33,5 +33,5 @@ function contarPalabras(cadena, palabra) {
             conteo++
         }
     }
-    console.log(conteo);
+    console.log("Numero de veces que se repite la palabra",conteo);
 }
