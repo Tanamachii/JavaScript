@@ -4,8 +4,14 @@ const parrafo = document.querySelector(".parrafo");
 const pid = document.querySelector("#p-id");
 const input = document.querySelector("input");
 
-const img = document.createElement("img");
-img.setAttribute("src", "https://picsum.photos/200");
+const input1 = document.querySelector("#calculo");
+const input2 = document.querySelector("#calculo2");
+const btnCalcular = document.querySelector("#btn-calcular");
+const div = document.querySelector(".subtitulo");
 
-pid.innerHTML = "";
-pid.append(img);
+function btnOnClick() {
+  const subtitulo = document.createElement("h2");
+  const suma = Number(input1.value) + Number(input2.value);
+  subtitulo.innerHTML = "<p> Resultado: " + suma + "</p>";
+  div.append(subtitulo);
+}
