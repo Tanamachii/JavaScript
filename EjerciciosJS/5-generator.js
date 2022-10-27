@@ -11,3 +11,12 @@ console.log(it.next().value);
 console.log(it.next().value);
 console.log(it.next().value);
 console.log(it.next().value);
+
+// export function* getId() {
+//   let lastId = 1;
+//   while (true) {
+//     yield lastId++;
+//   }
+// }
+
+//PARA GENERAR UN ID UNICO CADA VEZ QUE SE LLAME
