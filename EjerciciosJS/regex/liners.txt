@@ -3,7 +3,7 @@
 123
 1234
 12345
-12345678910
+12345678912303493042323
 12345678910a
 13453243
 url: https://www.instagram.com/p/BXB4zsUlW5Z/?taken-by=beco.mx
@@ -13,14 +13,25 @@ http://instagram.com/p/blablablah
 csv1,csv2,csv3,csv4,csv5
 Rodrigo Jiménez Gutiérrez
 5556581111
-56-58-11-12
+56-58-11-12-22
 302-345-9876
 esto.es.un.mail+gmail@mail.com
 dominio.com
 [LOG ENTRY] [ERROR] The system is unstable
+[LOG ENTRY] [WARN] The system may be down
+[LOG ENTRY] [WARN] The system may be down
 [LOG ENTRY] [WARN] The system may be down
 [LOG ENTRY] [LOG] Everything is OK
 [LOG ENTRY] [LOG] [user:@beco] Logged in
 [LOG ENTRY] [LOG] [user:@beco] Clicked here
 [LOG ENTRY] [LOG] [user:@beco] Rated the app
 [LOG ENTRY] [LOG] [user:@beco] Logged out
+
+66723456
+66-72-34
+66.72.34
+66 72 34
+66r72t34
+
+(\d{2}[^a-z]?){3,3} Para seleccionar un telefono sin letra entre pares
+
