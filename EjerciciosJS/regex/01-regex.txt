@@ -1,0 +1,11 @@
+1
+12
+123
+1234
+12345
+12345678910
+12345678910a
+13453243
+hola palabra
+
+Busqueda por "." en regex es super pontente, ya que te busca todos los caracteres dentro de tu archivo de txt,csv,etc.., tambien incluira los espacios, tabs,etc..
