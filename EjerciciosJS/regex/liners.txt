@@ -35,3 +35,25 @@ dominio.com
 
 (\d{2}[^a-z]?){3,3} Para seleccionar un telefono sin letra entre pares
 
+555658
+56-58-11
+56.58.11
+56.78-98
+65 09 87
+65-09-87#123
+76y87r98
+552560p123
+552560e123
++521565811
+
+^ --Inicio busque de línea
+    \+? --Busca si empieza con el signo + y es opcional
+    \d{2,3} --Busca digitos en grupos de 2 o 3
+    [^\da-z]? --Busca cualquier digito que no sea un digito ni una letra y es opcional
+    \d{2,3} --Busca digitos en grupos de 2 o 3
+    [^\da-z]? --Busca cualquier digito que no sea un digito ni una letra y es opcional 
+    \d{2,3} --Busca digitos en grupos de 2 o 3
+    [#pe]? --Busca los caracteres esos y es opcional
+    \d* --que termine o no en otro digito
+$ --Termina busqueda por línea
+
