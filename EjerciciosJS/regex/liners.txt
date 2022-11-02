@@ -57,3 +57,38 @@ dominio.com
     \d* --que termine o no en otro digito
 $ --Termina busqueda por línea
 
+
+esto.es.un.mail+gmail@mail.com
+esto.es_un.mail@mail.com
+esto.es_un.mail+complejo@mail.com
+dominio.com
+rodrigo.jimenez@yahoo.com.mx
+ruben@starbucks.com
+esto_no$es_email@dominio.com
+no_se_de_internet3@hotmail.com
+
+[\w\._]{5,30}\+?\w{0,10}@[\w\-\.]{3,}\.\w{2,5}
+
+
+Camilo Sarmiento Gálvez
+Alejandro Pliego Abasto
+Milagros Reyes Japón
+Samuel París Arrabal
+Juan Pablo Tafalla
+Axel Gálvez Velázquez
+Óscar Montreal Aparicio
+Jacobo Pozo Tassis
+Guillermo Ordóñez Espiga
+Eduardo Pousa Curbelo
+Ivanna Bienvenida Kevin
+Ada Tasis López
+Luciana Sáenz García
+Florencia Sainz Márquz
+Catarina Cazalla Lombarda
+Paloma Gallo Perro
+Margarita Quesada Florez
+Vicente Fox Quesada
+Iris Graciani
+Asunción Carballar
+Constanza Muñoz
+Manuel Andres García Márquez
